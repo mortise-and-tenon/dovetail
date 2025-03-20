@@ -1,0 +1,30 @@
+2025-03-20 15:50:04,609 VGCD-W14421HL mortnon/INFO: main com.zaxxer.hikari.HikariDataSource.<init>(80):HikariPool-1 - Starting...
+2025-03-20 15:50:05,377 VGCD-W14421HL mortnon/INFO: main com.zaxxer.hikari.HikariDataSource.<init>(82):HikariPool-1 - Start completed.
+2025-03-20 15:50:05,490 VGCD-W14421HL mortnon/INFO: main io.micronaut.flyway.AbstractFlywayMigration.runFlyway(96):Running migrations for database with qualifier [default]
+2025-03-20 15:50:05,502 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Flyway Community Edition 8.5.13 by Redgate
+2025-03-20 15:50:05,503 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2025-03-20 15:50:05,505 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):
+2025-03-20 15:50:05,570 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Database: jdbc:mysql://localhost:3306/mortnon (MySQL 8.0)
+2025-03-20 15:50:05,740 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Successfully validated 1 migration (execution time 00:00.107s)
+2025-03-20 15:50:05,770 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Current version of schema `mortnon`: 1
+2025-03-20 15:50:05,772 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Schema `mortnon` is up to date. No migration necessary.
+2025-03-20 15:50:07,291 VGCD-W14421HL mortnon/INFO: main io.micronaut.runtime.Micronaut.lambda$start$2(98):Startup completed in 4955ms. Server Running: http://localhost:8080
+2025-03-20 15:50:20,526 VGCD-W14421HL mortnon/INFO: Thread-0 io.micronaut.runtime.Micronaut.lambda$start$0(115):Embedded Application shutting down
+2025-03-20 15:50:20,564 VGCD-W14421HL mortnon/INFO: Thread-0 com.zaxxer.hikari.HikariDataSource.close(350):HikariPool-1 - Shutdown initiated...
+2025-03-20 15:50:20,585 VGCD-W14421HL mortnon/INFO: Thread-0 com.zaxxer.hikari.HikariDataSource.close(352):HikariPool-1 - Shutdown completed.
+2025-03-20 15:50:53,595 VGCD-W14421HL mortnon/INFO: main com.zaxxer.hikari.HikariDataSource.<init>(80):HikariPool-1 - Starting...
+2025-03-20 15:50:54,295 VGCD-W14421HL mortnon/INFO: main com.zaxxer.hikari.HikariDataSource.<init>(82):HikariPool-1 - Start completed.
+2025-03-20 15:50:54,384 VGCD-W14421HL mortnon/INFO: main io.micronaut.flyway.AbstractFlywayMigration.runFlyway(96):Running migrations for database with qualifier [default]
+2025-03-20 15:50:54,394 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Flyway Community Edition 8.5.13 by Redgate
+2025-03-20 15:50:54,395 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):See what's new here: https://flywaydb.org/documentation/learnmore/releaseNotes#8.5.13
+2025-03-20 15:50:54,396 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):
+2025-03-20 15:50:54,460 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Database: jdbc:mysql://localhost:3306/mortnon (MySQL 8.0)
+2025-03-20 15:50:54,564 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Successfully validated 1 migration (execution time 00:00.052s)
+2025-03-20 15:50:54,590 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Current version of schema `mortnon`: 1
+2025-03-20 15:50:54,591 VGCD-W14421HL mortnon/INFO: main org.flywaydb.core.internal.logging.slf4j.Slf4jLog.info(37):Schema `mortnon` is up to date. No migration necessary.
+2025-03-20 15:50:56,103 VGCD-W14421HL mortnon/INFO: main io.micronaut.runtime.Micronaut.lambda$start$2(98):Startup completed in 4879ms. Server Running: http://localhost:8080
+2025-03-20 15:51:04,833 VGCD-W14421HL mortnon/INFO: reactor-tcp-nio-3 fun.mortnon.web.filter.model.TraceLog.print(49):[GET - /profile - OK][IP:172.29.34.9,Time:2025-03-20T07:51:03.268049300Z - 2025-03-20T07:51:04.833037100Z,Cost:1564ms]
+2025-03-20 15:51:05,081 VGCD-W14421HL mortnon/INFO: reactor-tcp-nio-5 fun.mortnon.web.filter.model.TraceLog.print(49):[GET - /roles?page=0&size=10 - OK][IP:172.29.34.9,Time:2025-03-20T07:51:03.268049300Z - 2025-03-20T07:51:05.081036Z,Cost:1812ms]
+2025-03-20 15:51:11,659 VGCD-W14421HL mortnon/INFO: Thread-0 io.micronaut.runtime.Micronaut.lambda$start$0(115):Embedded Application shutting down
+2025-03-20 15:51:11,723 VGCD-W14421HL mortnon/INFO: Thread-0 com.zaxxer.hikari.HikariDataSource.close(350):HikariPool-1 - Shutdown initiated...
+2025-03-20 15:51:11,744 VGCD-W14421HL mortnon/INFO: Thread-0 com.zaxxer.hikari.HikariDataSource.close(352):HikariPool-1 - Shutdown completed.
